@@ -6,9 +6,8 @@ public class SolarObjects {
     public int distance;
     public int diameter;
     public int angle;
-    public int velocity;
-    
-    public SolarObjects(String objectType, String color, int distance, int diameter, int angle, int velocity) {
+
+    public SolarObjects(String objectType, String color, int distance, int diameter, int angle) {
         
         this.objectType = objectType;
         this.color = color;
