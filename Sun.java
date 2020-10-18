@@ -1,9 +1,19 @@
 public class Sun extends SolarObjects{
-    public String sunColor = "YELLOW";
-    public int angle;
-
-    public Sun(String sunColor,int sunDistance ,int sunDiameter, int sunAngle){
-        super("SUN", sunColor, sunDistance, sunDiameter,sunAngle);
-        
+    
+    public int sunAngle;
+    public int sunDiameter;
+    public int sunDistance;
+    public String sunColor;
+    public Sun(int sunDistance ,int sunDiameter, int sunAngle){
+        super("SUN", "YELLOW", sunDistance, sunDiameter,sunAngle); 
+        sunColor = "YELLOW";
     }
+
+    public int getDistance(){ return sunDistance;}
+
+    public int getDiameter(){return sunDiameter;}
+
+    public int getAngle(){return sunAngle;}
+
+    public String getColor() {return sunColor;}
 }

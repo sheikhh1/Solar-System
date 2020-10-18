@@ -18,7 +18,11 @@ public class SolarObjects {
 
     public String getObjectType() {return objectType;}
 
-    
+    public int getDistance() {return distance;}
+
+    public String getColor() {return color;}
+
+    public int getAngle(){return angle;}
 
  
 
