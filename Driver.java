@@ -1,7 +1,7 @@
 public class Driver {
     public static void main(String[] args) {
         // Create an instance of Solar System to create a window 
-        SolarSystem space = new SolarSystem(500,500);
+        SolarSystem space = new SolarSystem(1000,1000);
         int angleEarth = 0;
         int angleMoon = 0;
         
