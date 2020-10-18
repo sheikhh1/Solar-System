@@ -1,10 +1,23 @@
 public class SolarObjects {
     // Instance Variables 
-    public String color;
-    public int angle;
-    public int diameter;
     public int distance;
-    public int veloctiy;
+    public int diameter;
+
+    public SolarObjects(int distance, int diameter) {
+
+        this.distance = distance;
+        this.diameter = diameter;
+       
+        
+    }
+
     
+
+ 
+
+    
+
+
+
 
 }
