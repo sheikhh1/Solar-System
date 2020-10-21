@@ -1,20 +1,26 @@
 public class Planets extends Sun{
     
-    public int planetVelocity;
+    public double planetVelocity;
     public int planetCentreRotationDistance;
-    public int planetCentreRotationAngle;
+    public int planetAngle;
 
-    public Planets(int planetDistance, int planetCentreRotationDistance, int planetCentreRotationAngle, int planetDiameter, String planetColor, int planetVelocity) {
-        super(planetColor, planetDistance, planetDiameter,0); // All angles start at 0 degrees from the sun
+    public Planets(int planetDistance, int planetCentreRotationDistance, int planetAngle, int planetDiameter, String planetColor, double planetVelocity) {
+        super(planetColor, planetDistance, planetDiameter,planetAngle); // All angles start at 0 degrees from the sun
         this.planetVelocity = planetVelocity;
         this.planetCentreRotationDistance = planetCentreRotationDistance;
-        this.planetCentreRotationAngle = planetCentreRotationAngle;
+        this.planetAngle = planetAngle;
         
     }
 
-    public int getVelocity() {return planetVelocity;}
+    public double getVelocity() {return planetVelocity;}
 
-    public int getCentreRotationAngle() {return planetCentreRotationAngle;}
+    //public int getCentreRotationAngle() {return planetCentreRotationAngle;}
+
+    
 
     public int getCentreRotationDistance() {return planetCentreRotationDistance;}
+
+    public void move() {
+        setAngle(getAngle()+getVelocity());
+    }
 }
