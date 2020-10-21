@@ -6,5 +6,8 @@ public class Sun extends SolarObjects{
         
     }
 
+    public void move() {
+        System.out.println("HELLO 31");
+    }
    
 }
