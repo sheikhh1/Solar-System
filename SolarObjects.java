@@ -5,9 +5,9 @@ public class SolarObjects {
     public String color;
     public int distance;
     public int diameter;
-    public int angle;
+    public double angle;
 
-    public SolarObjects(String color, int distance, int diameter, int angle) {
+    public SolarObjects(String color, int distance, int diameter, double angle) {
         
         this.color = color;
         this.distance = distance;
@@ -21,11 +21,13 @@ public class SolarObjects {
 
     public String getColor() {return color;}
 
-    public int getAngle(){return angle;}
+    public double getAngle(){return angle;}
+
+    public void setAngle(double i){angle = i;}
 
     public int getDiameter() {return diameter;}
 
-    //public int getCentreRotationDistance();
+    public void move(){};
 
  
 
