@@ -4,8 +4,8 @@ public class Planets extends Sun{
     public int planetCentreRotationDistance;
     public int planetCentreRotationAngle;
 
-    public Planets(int planetDistance, int planetCentreRotationDistance, int planetAngle, int planetCentreRotationAngle, int planetDiameter, String planetColor, int planetVelocity) {
-        super(planetColor, planetDistance, planetDiameter, planetAngle);
+    public Planets(int planetDistance, int planetCentreRotationDistance, int planetCentreRotationAngle, int planetDiameter, String planetColor, int planetVelocity) {
+        super(planetColor, planetDistance, planetDiameter,0); // All angles start at 0 degrees from the sun
         this.planetVelocity = planetVelocity;
         this.planetCentreRotationDistance = planetCentreRotationDistance;
         this.planetCentreRotationAngle = planetCentreRotationAngle;
