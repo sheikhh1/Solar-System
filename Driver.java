@@ -1,11 +1,11 @@
 public class Driver {
 
-    SolarObjects[] spaceObjects = new SolarObjects[100];
-    SolarSystem space = new SolarSystem(1000,1000);
+    
 
     public static void main(String[] args) {
         // Create an instance of Solar System to create a window 
         
+        Window solarCreator = new Window();
         // int angleEarth = 0;
         // int angleMoon = 0;
         
@@ -22,12 +22,5 @@ public class Driver {
         
     }
 
-    void addSun() {
-        spaceObjects[0] = new Sun(0,100,0);
-    }
     
-
-    void addToWindow(){
-        // Will add all the Planets / Sun / Moons to the window
-    }
 }
