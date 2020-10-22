@@ -1,5 +1,6 @@
+
 public class Window {
-    SolarObjects[] spaceObjects = new SolarObjects[12];
+    SolarObjects[] spaceObjects = new SolarObjects[15];
     SolarSystem space = new SolarSystem(1100,1100);
 
     public Window() {
@@ -24,9 +25,15 @@ public class Window {
     }
 
     public void addMoons(){
+        int x =0;
         spaceObjects[9] = new Moons(180,0,10, "LIGHT_GRAY", 20,0,-6,-4.1); // Earth Moon
         spaceObjects[10] = new Moons(240,0,12, "LIGHT_GRAY", 20,0,-6,-3.4); // Mars Moon 1 (Phobos)
         spaceObjects[11] = new Moons(240,0,10, "LIGHT_GRAY", 20,200,-6,-3.4); // Mars Moon 2 (Deimos)
+
+        //Jupiters Galilean Moons
+        for (int i = 12; i < 15; i++) {
+            spaceObjects[i] = new Moons(310,0,10,"LIGHT_GRAY", 30,x+=120,-6,-1.8);
+        }
     }
 
     public void run(){
