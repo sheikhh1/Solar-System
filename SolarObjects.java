@@ -19,6 +19,8 @@ public class SolarObjects {
 
     public int getDistance() {return distance;}
 
+    public void setDistance(int i) {distance = i;}
+
     public String getColor() {return color;}
 
     public double getAngle(){return angle;}
