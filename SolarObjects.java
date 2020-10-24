@@ -8,7 +8,6 @@ public class SolarObjects {
     public double angle;
 
     public SolarObjects(String color, int distance, int diameter, double angle) {
-        
         this.color = color;
         this.distance = distance;
         this.diameter = diameter;

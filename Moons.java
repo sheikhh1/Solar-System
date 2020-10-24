@@ -20,6 +20,5 @@ public class Moons extends Planets {
     public void move() {
         setAngle(getAngle() + planetSpeed);
         setCentreOfRotationAngle(getCentreOfRotationAngle() +getVelocity());
-
     }
 }
