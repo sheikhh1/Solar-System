@@ -1,7 +1,7 @@
 public class Planets extends Sun{
     
-    public double planetVelocity;
-    public double planetAngle;
+    private double planetVelocity;
+    private double planetAngle;
 
     public Planets(int planetDistance ,double planetAngle, int planetDiameter, String planetColor, double planetVelocity) {
         super(planetColor, planetDistance, planetDiameter,planetAngle); // All angles start at 0 degrees from the sun
