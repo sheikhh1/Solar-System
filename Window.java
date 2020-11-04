@@ -4,6 +4,7 @@ import java.util.Random;
  * This class has been created to add all the objects on the screen
  * Polymorphism is used to add Planets / Moon / Asteroids which is then added into a SolarObjects Array
  * A while (true) loop is used to create the animation on the screen
+ * @author Haaris Sheikh
  */
 public class Window {
     private SolarObjects[] spaceObjects = new SolarObjects[250]; 
