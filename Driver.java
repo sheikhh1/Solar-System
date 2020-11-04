@@ -1,3 +1,7 @@
+/**
+ * Main Driver Class used to run the program
+ * @author Haaris Sheikh
+ */
 public class Driver {
 
     public static void main(String[] args) {
