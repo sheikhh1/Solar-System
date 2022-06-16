@@ -7,5 +7,5 @@ Start program by java Driver
 
 Below is an image showing the animation: 
 
-![Screenshot 2022-06-16 214733](https://user-images.githubusercontent.com/60651558/174160895-5490522f-d0c4-4f6b-9154-ffe855495497.jpg)
+![v5n22xGyNNHLzSnSArbrVH](https://user-images.githubusercontent.com/60651558/174161237-a6fba011-f18a-4ffa-882d-f72fbcadf97e.jpg)
 
